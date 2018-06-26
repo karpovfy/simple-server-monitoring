@@ -7,7 +7,7 @@ import java.net.URL;
 public  class MyRunnable implements  Runnable{
     private final String url;
     private final String name;
-    private final int port=8080;
+    //private final int port=8080;
     MyRunnable(String url,String name)
     {
         this.url=url;
